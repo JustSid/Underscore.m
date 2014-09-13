@@ -8,42 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		541D18A615616E2400599033 /* Underscore.m in Sources */ = {isa = PBXBuildFile; fileRef = 541D18A515616E2400599033 /* Underscore.m */; };
-		541D18AA1561726C00599033 /* HelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 541D18A91561726C00599033 /* HelperTest.m */; };
 		54567D99154DDED4000F38AC /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A3DCCD154DD4BF00387DE3 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		547C44DB15B30ADD004698B8 /* Underscore+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 547C44D915B30ADC004698B8 /* Underscore+Functional.h */; };
 		547C44DC15B30ADD004698B8 /* Underscore+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C44DA15B30ADD004698B8 /* Underscore+Functional.m */; };
 		54903D13155FF779006854CB /* USArrayWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54903D11155FF779006854CB /* USArrayWrapper.h */; };
 		54903D14155FF779006854CB /* USArrayWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54903D12155FF779006854CB /* USArrayWrapper.m */; };
-		54903D1B15600A45006854CB /* USArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54903D1A15600A45006854CB /* USArrayTest.m */; };
 		54996B2315614B220016BE94 /* USDictionaryWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2115614B220016BE94 /* USDictionaryWrapper.h */; };
 		54996B2415614B220016BE94 /* USDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54996B2215614B220016BE94 /* USDictionaryWrapper.m */; };
 		54996B2D15614F900016BE94 /* USConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2C15614F900016BE94 /* USConstants.h */; };
-		54996B371561576D0016BE94 /* USDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54996B361561576D0016BE94 /* USDictionaryTest.m */; };
 		54A3DCC9154DD4BF00387DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3DCC8154DD4BF00387DE3 /* Foundation.framework */; };
-		54A3DCD7154DD4BF00387DE3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3DCD6154DD4BF00387DE3 /* SenTestingKit.framework */; };
-		54A3DCD9154DD4BF00387DE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3DCD8154DD4BF00387DE3 /* UIKit.framework */; };
-		54A3DCDA154DD4BF00387DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3DCC8154DD4BF00387DE3 /* Foundation.framework */; };
-		54A3DCDD154DD4BF00387DE3 /* libUnderscore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3DCC5154DD4BF00387DE3 /* libUnderscore.a */; };
-		54A3DCE3154DD4BF00387DE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54A3DCE1154DD4BF00387DE3 /* InfoPlist.strings */; };
-		6775CC96B4B74AF283884A0A /* libPods-UnderscoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D4915E525F41A183CA3B1D /* libPods-UnderscoreTests.a */; };
 		BCFADFF31837E77000A81EB5 /* Underscore+Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFEF1837E77000A81EB5 /* Underscore+Strings.h */; };
 		BCFADFF41837E77000A81EB5 /* Underscore+Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF01837E77000A81EB5 /* Underscore+Strings.m */; };
 		BCFADFF61837E77000A81EB5 /* USStringWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFF11837E77000A81EB5 /* USStringWrapper.h */; };
 		BCFADFF71837E77000A81EB5 /* USStringWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF21837E77000A81EB5 /* USStringWrapper.m */; };
-		BCFADFFC1837EBE600A81EB5 /* UnderscoreStringsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF91837EBA200A81EB5 /* UnderscoreStringsSpec.m */; };
 		D05901E4195E34B100694E3C /* USDictionaryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = D05901E2195E34B100694E3C /* USDictionaryEntry.h */; };
 		D05901E5195E34B100694E3C /* USDictionaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D05901E3195E34B100694E3C /* USDictionaryEntry.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		54A3DCDB154DD4BF00387DE3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54A3DCBC154DD4BF00387DE3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54A3DCC4154DD4BF00387DE3;
-			remoteInfo = Underscore;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3074062DBA9E4660841E3D0A /* Pods-UnderscoreTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnderscoreTests.xcconfig"; path = "Pods/Pods-UnderscoreTests.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +46,6 @@
 		54A3DCC8154DD4BF00387DE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54A3DCCC154DD4BF00387DE3 /* Underscore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Underscore-Prefix.pch"; sourceTree = "<group>"; };
 		54A3DCCD154DD4BF00387DE3 /* Underscore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Underscore.h; sourceTree = "<group>"; };
-		54A3DCD5154DD4BF00387DE3 /* UnderscoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderscoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A3DCD6154DD4BF00387DE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		54A3DCD8154DD4BF00387DE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		54A3DCE0154DD4BF00387DE3 /* UnderscoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnderscoreTests-Info.plist"; sourceTree = "<group>"; };
@@ -90,18 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A3DCD1154DD4BF00387DE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54A3DCD7154DD4BF00387DE3 /* SenTestingKit.framework in Frameworks */,
-				54A3DCD9154DD4BF00387DE3 /* UIKit.framework in Frameworks */,
-				54A3DCDA154DD4BF00387DE3 /* Foundation.framework in Frameworks */,
-				54A3DCDD154DD4BF00387DE3 /* libUnderscore.a in Frameworks */,
-				6775CC96B4B74AF283884A0A /* libPods-UnderscoreTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -120,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				54A3DCC5154DD4BF00387DE3 /* libUnderscore.a */,
-				54A3DCD5154DD4BF00387DE3 /* UnderscoreTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,27 +212,6 @@
 			productReference = 54A3DCC5154DD4BF00387DE3 /* libUnderscore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		54A3DCD4154DD4BF00387DE3 /* UnderscoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54A3DCEC154DD4BF00387DE3 /* Build configuration list for PBXNativeTarget "UnderscoreTests" */;
-			buildPhases = (
-				05E919BE37484386820D8966 /* Check Pods Manifest.lock */,
-				54A3DCD0154DD4BF00387DE3 /* Sources */,
-				54A3DCD1154DD4BF00387DE3 /* Frameworks */,
-				54A3DCD2154DD4BF00387DE3 /* Resources */,
-				54A3DCD3154DD4BF00387DE3 /* ShellScript */,
-				1F2BDAFB2B734AC0A0FF4000 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54A3DCDC154DD4BF00387DE3 /* PBXTargetDependency */,
-			);
-			name = UnderscoreTests;
-			productName = UnderscoreTests;
-			productReference = 54A3DCD5154DD4BF00387DE3 /* UnderscoreTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,67 +234,9 @@
 			projectRoot = "";
 			targets = (
 				54A3DCC4154DD4BF00387DE3 /* Underscore */,
-				54A3DCD4154DD4BF00387DE3 /* UnderscoreTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		54A3DCD2154DD4BF00387DE3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54A3DCE3154DD4BF00387DE3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		05E919BE37484386820D8966 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		1F2BDAFB2B734AC0A0FF4000 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-UnderscoreTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54A3DCD3154DD4BF00387DE3 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54A3DCC1154DD4BF00387DE3 /* Sources */ = {
@@ -366,26 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A3DCD0154DD4BF00387DE3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54903D1B15600A45006854CB /* USArrayTest.m in Sources */,
-				BCFADFFC1837EBE600A81EB5 /* UnderscoreStringsSpec.m in Sources */,
-				54996B371561576D0016BE94 /* USDictionaryTest.m in Sources */,
-				541D18AA1561726C00599033 /* HelperTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		54A3DCDC154DD4BF00387DE3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54A3DCC4154DD4BF00387DE3 /* Underscore */;
-			targetProxy = 54A3DCDB154DD4BF00387DE3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		54A3DCE1154DD4BF00387DE3 /* InfoPlist.strings */ = {
@@ -454,9 +322,11 @@
 		54A3DCEA154DD4BF00387DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/Underscore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Underscore/Underscore-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -466,44 +336,14 @@
 		54A3DCEB154DD4BF00387DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/Underscore.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Underscore/Underscore-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		54A3DCED154DD4BF00387DE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3074062DBA9E4660841E3D0A /* Pods-UnderscoreTests.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnderscoreTests/UnderscoreTests-Prefix.pch";
-				INFOPLIST_FILE = "UnderscoreTests/UnderscoreTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		54A3DCEE154DD4BF00387DE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3074062DBA9E4660841E3D0A /* Pods-UnderscoreTests.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnderscoreTests/UnderscoreTests-Prefix.pch";
-				INFOPLIST_FILE = "UnderscoreTests/UnderscoreTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -524,15 +364,6 @@
 			buildConfigurations = (
 				54A3DCEA154DD4BF00387DE3 /* Debug */,
 				54A3DCEB154DD4BF00387DE3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54A3DCEC154DD4BF00387DE3 /* Build configuration list for PBXNativeTarget "UnderscoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54A3DCED154DD4BF00387DE3 /* Debug */,
-				54A3DCEE154DD4BF00387DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
